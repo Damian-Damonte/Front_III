@@ -38,7 +38,7 @@ const Dashboard = () => {
       isFinished: false,
     };
     setTextNewTask("");
-    setPendingTasks([...todos, newTask]);
+    setPendingTasks([...pendingTasks, newTask]);
     setTodos([...todos, newTask]);
   } else
     alert("No puede crear una tarea vacía")
